@@ -1,0 +1,377 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sage</name>
+    </assembly>
+    <members>
+        <member name="T:SageTestingGUI">
+            <summary>
+            This class is used to test a Sage Library in game.  Only one instance of this class can be active at a time.
+            </summary>
+        </member>
+        <member name="F:SageTestingGUI.targetController">
+            <summary>
+            This is the target controller that this Sage Testing GUI should be testing.
+            </summary>
+        </member>
+        <member name="F:SageTestingGUI.depthOffset">
+            <summary>
+            This is how much to offset the target controller away from the main camera.
+            </summary>
+        </member>
+        <member name="F:SageTestingGUI.horizontalOffset">
+            <summary>
+            This is how much to offset the target controller to the right of the main camera.
+            </summary>
+        </member>
+        <member name="F:SageTestingGUI.verticalOffset">
+            <summary>
+            This is how much to offset the target controller vertically from the main camera.
+            </summary>
+        </member>
+        <member name="F:SageTestingGUI.rotation">
+            <summary>
+            This is the number of degrees to rotate the main camera around the target controller.
+            </summary>
+        </member>
+        <member name="P:SageTestingGUI.Instance">
+            <summary>
+            This returns the current instance of the Sage Testing GUI.
+            </summary>
+        </member>
+        <member name="M:SageInternal.ISageGraph.SetTargetInputWeight(System.Single,System.Single)">
+            <summary>
+            This sets the target input for this graph.
+            </summary>
+            <param name="targetInput">The target input</param>
+            <param name="fullTransitionTime">This is the amount of time it would take to go from 0.0 to 1.0 or 1.0 to 0.0.</param>
+        </member>
+        <member name="M:SageInternal.SageInputVariable.GetDirectionFromAxis(UnityEngine.Vector2)">
+            <summary>
+            This function gets the direction from the controller axis.  From -180 to 180, with 0 being when the controller stick is pressed straight up.
+            </summary>
+        </member>
+        <member name="T:SageStateEnteredDelegate">
+            <summary>
+            This delegate is used to callback when a state is entered.
+            </summary>
+        </member>
+        <member name="T:SageStateUpdatedDelegate">
+            <summary>
+            This delegate is used to callback when a state is updated.
+            </summary>
+            <param name="deltaTime">The current time delta for the update.</param>
+        </member>
+        <member name="T:SageStateExitedDelegate">
+            <summary>
+            This delegate is used to callback when a state is exited.
+            </summary>
+        </member>
+        <member name="T:SageApplyMovementDelegate">
+            <summary>
+            This is the delegate called when movement needs to be applied to the character. If the delegate returns false,
+            the Sage will automatically handle applying the movement.  If it returns true, that implies the movement was
+            handled through custom code and Sage will do nothing.
+            </summary>
+            <param name="movementAmount">The amount of movement to apply this frame.</param>
+            <param name="movementAmount">The amount of rotation to apply this frame.</param>
+            <param name="movementTarget">The target game object to apply the movement to.</param>
+            <returns>Whether or not the movement was handled.</returns>
+        </member>
+        <member name="T:SageController">
+            <summary>
+            This is the main class that controls a Sage Library.  This is attached to any animated GameObject, and using the Sage Library, it will control all of the animations on the GameObject.
+            </summary>
+        </member>
+        <member name="F:SageController.libraryAsset">
+            <summary>
+            This is the Sage Library Asset that this Sage Controller is using.
+            </summary>
+        </member>
+        <member name="F:SageController.animationTarget">
+            <summary>
+            This is the Animation compontent that is the target for animation for this Sage Controller.
+            If this is null, it will default to looking for an Animation component on the same game
+            object as the SageController component.
+            </summary>
+        </member>
+        <member name="F:SageController.movementTarget">
+            <summary>
+            This is the GameObject that is the target for world movement for this Sage Controller.
+            If this is null, it will default to use the GameObject that this SageController component
+            is attached to.
+            </summary>
+        </member>
+        <member name="F:SageController.displayRuntimeInfo">
+            <summary>
+            This will display the runtime info of this Sage Controller.  Such as what graphs are active and animations are playing etc.
+            </summary>
+        </member>
+        <member name="M:SageController.Reset">
+            <summary>
+            This function is called when this object is reset in the editor.
+            </summary>
+        </member>
+        <member name="M:SageController.Awake">
+            <summary>
+            This function is called when this script is awoken.
+            </summary>
+        </member>
+        <member name="M:SageController.OnDestroy">
+            <summary>
+            This function is called when this script is destroyed.
+            </summary>
+        </member>
+        <member name="M:SageController.RecreateLibrary">
+            <summary>
+            This will stop all current state machines, remove the current library,
+            and then recreate everything.
+            </summary>
+        </member>
+        <member name="M:SageController.RecacheAnimations">
+            <summary>
+            This will recache all animations that have been cached.  This needs to be called
+            if and when the Animation object has it's animation clips changed dynamically
+            </summary>
+        </member>
+        <member name="M:SageController.Update">
+            <summary>
+            This function is called when this script is updated.
+            </summary>
+        </member>
+        <member name="M:SageController.SetGlobalSpeed(System.Single)">
+            <summary>
+            This function sets the global speed of this SageController.
+            </summary>
+            <param name="speed">The speed to set it to.</param>
+            <returns>Returns whether or not this function was executed successfully.</returns>
+        </member>
+        <member name="M:SageController.GetGlobalSpeed">
+            <summary>
+            This function gets the global speed of this SageController.
+            </summary>
+            <returns>Returns the global speed.</returns>
+        </member>
+        <member name="M:SageController.SetFloat(System.String,System.Single)">
+            <summary>
+            This function sets a float variable on this SageController.
+            </summary>
+            <param name="variableName">The name of the variable to be set.</param>
+            <param name="value">The value to set the variable to.</param>
+            <returns>Returns whether or not this function was executed successfully.</returns>
+        </member>
+        <member name="M:SageController.SetFloat(System.String,System.Single,System.Boolean)">
+            <summary>
+            This function sets a float variable on this SageController.
+            </summary>
+            <param name="variableName">The name of the variable to be set.</param>
+            <param name="value">The value to set the variable to.</param>
+            <param name="instant">This indicates if this value should be set instantly, or if it should enforce any change speed restrictions present on the variable.</param>
+            <returns>Returns whether or not this function was executed successfully.</returns>
+        </member>
+        <member name="M:SageController.GetFloat(System.String)">
+            <summary>
+            This function gets a float variable on this SageController.
+            </summary>
+            <param name="variableName">The name of the variable to get.</param>
+            <returns>Returns the float value of the variable.</returns>
+        </member>
+        <member name="M:SageController.StartStateMachine(System.String)">
+            <summary>
+            This function starts a state machine on this SageController.
+            </summary>
+            <param name="stateMachine">The name of the state machine to start.</param>
+            <returns>Returns whether or not this function was executed successfully.</returns>
+        </member>
+        <member name="M:SageController.StartStateMachine(System.String,System.Single)">
+            <summary>
+            This function starts a state machine on this SageController.
+            </summary>
+            <param name="stateMachine">The name of the state machine to start.</param>
+            <param name="transitionTime">This is how long it should take to fully start the state machine.</param>
+            <returns>Returns whether or not this function was executed successfully.</returns>
+        </member>
+        <member name="M:SageController.StartStateMachine(System.String,System.Single,System.String)">
+            <summary>
+            This function starts a state machine on this SageController.
+            </summary>
+            <param name="stateMachine">The name of the state machine to start.</param>
+            <param name="transitionTime">This is how long (in seconds) it should take to fully start the state machine.</param>
+            <param name="initialState">The name of the initial state to start this state machine in.</param>
+            <returns>Returns whether or not this function was executed successfully.</returns>
+        </member>
+        <member name="M:SageController.StopStateMachine(System.String)">
+            <summary>
+            This function stops a state machine on this SageController.
+            </summary>
+            <param name="stateMachine">The name of the state machine to stop.</param>
+            <returns>Returns whether or not this function was executed successfully.</returns>
+        </member>
+        <member name="M:SageController.StopStateMachine(System.String,System.Single)">
+            <summary>
+            This function stops a state machine on this SageController.
+            </summary>
+            <param name="stateMachine">The name of the state machine to stop.</param>
+            <param name="transitionTime">This is how long (in seconds) it should take to fully stop the state machine.</param>
+            <returns>Returns whether or not this function was executed successfully.</returns>
+        </member>
+        <member name="M:SageController.StopAllStateMachines">
+            <summary>
+            This function stops all state machines on this SageController.
+            </summary>
+            <returns>Returns whether or not this function was executed successfully.</returns>
+        </member>
+        <member name="M:SageController.StopAllStateMachines(System.Single)">
+            <summary>
+            This function stops all state machines on this SageController.
+            </summary>
+            <param name="transitionTime">This is how long (in seconds) it should take to fully stop all of the state machine.</param>
+            <returns>Returns whether or not this function was executed successfully.</returns>
+        </member>
+        <member name="M:SageController.IsSuspended">
+            <summary>
+            This function checks if this SageController is currently suspended.
+            </summary>
+            <returns>Returns if this SageController is suspended.</returns>
+        </member>
+        <member name="M:SageController.Suspend(System.Single)">
+            <summary>
+            This function suspends this SageController, which will pause the SageController and preserve all current states and active state machines.
+            </summary>
+            <param name="outTime">This is how long (in seconds) it should take to suspend this SageController.</param>
+            <returns>Returns whether or not this function was executed successfully.</returns>
+        </member>
+        <member name="M:SageController.SuspendAndPlayAnimation(System.String,System.Single,System.Single,System.Single)">
+            <summary>
+            This function suspends this SageController, plays an animation, and then will automatically resume the SageController.
+            </summary>
+            <param name="animation">The animation to play.</param>
+            <param name="speed">The speed to playback the animation at.</param>
+            <param name="outTime">This is how long (in seconds) it should take to suspend and blend into this animation.</param>
+            <param name="inTime">This is how long (in seconds) it should take to resume and blend out of this animation.</param>
+            <returns>Returns whether or not this function was executed successfully.</returns>
+        </member>
+        <member name="M:SageController.SuspendAndPlayAnimations(System.Collections.Generic.List{System.String},System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            This function suspends this SageController, plays a list of animations, and then will automatically resume the SageController.
+            </summary>
+            <param name="animations">The list of animations to play, in order.</param>
+            <param name="speed">The speed to playback the animations at.</param>
+            <param name="outTime">This is how long (in seconds) it should take to suspend and blend into these animations.</param>
+            <param name="crossBlendTime">This is how long (in seconds) it should take to blend between animations in the list.</param>
+            <param name="inTime">This is how long (in seconds) it should take to resume and blend out of these animations.</param>
+            <returns>Returns whether or not this function was executed successfully.</returns>
+        </member>
+        <member name="M:SageController.Resume(System.Single)">
+            <summary>
+            This function resumes this SageController, if suspended, reactivating all previous activate states and state machines.
+            </summary>
+            <param name="inTime">This is how long (in seconds) it should take to resume this SageController.</param>
+            <returns>Returns whether or not this function was executed successfully.</returns>
+        </member>
+        <member name="M:SageController.IsStateMachineActive(System.String)">
+            <summary>
+            This function checks if a state machine is currently activate on this SageController.
+            </summary>
+            <param name="stateMachine">The state machine to check.</param>
+            <returns>Returns if the requested state machine is currently active.</returns>
+        </member>
+        <member name="M:SageController.GetStateMachineCurrentState(System.String)">
+            <summary>
+            This function gets the current state of an activate state machine.
+            </summary>
+            <param name="stateMachine">The state machine to get the state of.</param>
+            <returns>Returns the current state of the state machine.</returns>
+        </member>
+        <member name="M:SageController.ForceState(System.String,System.String)">
+            <summary>
+            This functions forces a state on a state machine, ignoring normal transistion paths.
+            </summary>
+            <param name="stateMachine">The state machine to access.</param>
+            <param name="newState">The new state to force on the state machine.</param>
+            <returns>Returns whether or not this function was executed successfully.</returns>
+        </member>
+        <member name="M:SageController.ForceState(System.String,System.String,System.Single)">
+            <summary>
+            This functions forces a state on a state machine, ignoring normal transistion paths.
+            </summary>
+            <param name="stateMachine">The state machine to access.</param>
+            <param name="newState">The new state to force on the state machine.</param>
+            <param name="transitionTime">This is the amount of time (in seconds) it should take to transistion into this state.</param>
+            <returns>Returns whether or not this function was executed successfully.</returns>
+        </member>
+        <member name="M:SageController.ForceState(System.String,System.String,System.Single,System.Boolean)">
+            <summary>
+            This functions forces a state on a state machine, ignoring normal transistion paths.
+            </summary>
+            <param name="stateMachine">The state machine to access.</param>
+            <param name="newState">The new state to force on the state machine.</param>
+            <param name="transitionTime">This is the amount of time (in seconds) it should take to transistion into this state.</param>
+            <param name="allowStateRestart">This indicates if when trying to transition into the same state, that the state should be allowed to start over from the beginning.</param>
+            <returns>Returns whether or not this function was executed successfully.</returns>
+        </member>
+        <member name="M:SageController.TransistionToState(System.String,System.String)">
+            <summary>
+            This function causes a state machine to transition from it's current state to a new state, using only normal transition paths.
+            </summary>
+            <param name="stateMachine">The state machine to access.</param>
+            <param name="newState">The new state to transistion to on the state machine.</param>
+            <returns>Returns whether or not this function was executed successfully.</returns>
+        </member>
+        <member name="M:SageController.TransistionToState(System.String,System.String,System.Boolean)">
+            <summary>
+            This function causes a state machine to transition from it's current state to a new state, using only normal transition paths.
+            </summary>
+            <param name="stateMachine">The state machine to access.</param>
+            <param name="newState">The new state to transistion to on the state machine.</param>
+            <param name="allowStateRestart">This indicates if when trying to transition into the same state, that the state should be allowed to start over from the beginning.</param>
+            <returns>Returns whether or not this function was executed successfully.</returns>
+        </member>
+        <member name="M:SageController.Trigger(System.String)">
+            <summary>
+            This function is used to receive trigger messages and react to them.
+            </summary>
+            <param name="triggerName">The name of the trigger to trigger.</param>
+        </member>
+        <member name="M:SageController.SetStateEnteredDelegate(System.String,System.String,SageStateEnteredDelegate)">
+            <summary>
+            This function sets the callback for entering a state in a specific state machine.
+            </summary>
+            <param name="stateMachine">The state machine to find the state in.</param>
+            <param name="state">The state to set the entered delegate on.</param>
+            <param name="enteredDelegate">The entered delegate to set. Passing in null clears any existing delegate.</param>
+            <returns>Whether or not the entered delegate was set successfully.</returns>
+        </member>
+        <member name="M:SageController.SetStateUpdatedDelegate(System.String,System.String,SageStateUpdatedDelegate)">
+            <summary>
+            This function sets the callback for updating a state in a specific state machine.
+            </summary>
+            <param name="stateMachine">The state machine to find the state in.</param>
+            <param name="state">The state to set the updated delegate on.</param>
+            <param name="updatedDelegate">The updated delegate to set. Passing in null clears any existing delegate.</param>
+            <returns>Whether or not the updated delegate was set successfully.</returns>
+        </member>
+        <member name="M:SageController.SetStateExitedDelegate(System.String,System.String,SageStateExitedDelegate)">
+            <summary>
+            This function sets the callback for exiting a state in a specific state machine.
+            </summary>
+            <param name="stateMachine">The state machine to find the state in.</param>
+            <param name="state">The state to set the exited delegate on.</param>
+            <param name="exitedDelegate">The exited delegate to set. Passing in null clears any existing delegate.</param>
+            <returns>Whether or not the exited delegate was set successfully.</returns>
+        </member>
+        <member name="M:SageController.SetApplyMovementDelegate(SageApplyMovementDelegate)">
+            <summary>
+            This sets a delegate function that should be called when movement should be applied.
+            </summary>
+            <param name="applyMovementDelegate">The function to call.</param>
+            <returns>Whether or not the delegate function was set properly.</returns>
+        </member>
+        <member name="P:SageController.LibraryRuntime">
+            <summary>
+            This gets the library runtime that is assigned to this Sage Controller.
+            NOTE: USING THIS DIRECTLY IS AN ADVANCED OPTION, AND NOT FULLY SUPPORTED!
+            </summary>
+        </member>
+    </members>
+</doc>

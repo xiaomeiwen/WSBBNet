@@ -1,0 +1,2292 @@
+fileFormatVersion: 2
+guid: 09dee772ed81e4741a1264b6b86b4fa3
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Ball_Mesh
+    100002: //RootNode
+    100004: DD_BP_6_Skeleton
+    100006: DD_Mesh
+    100008: Jnt_Ball_Helper
+    100010: Jnt_Chest
+    100012: Jnt_Head
+    100014: Jnt_Head_End
+    100016: Jnt_Hip
+    100018: Jnt_L_Ankle
+    100020: Jnt_L_Arm
+    100022: Jnt_L_Elbow
+    100024: Jnt_L_Forearm
+    100026: Jnt_L_Index1
+    100028: Jnt_L_Index2
+    100030: Jnt_L_Index3
+    100032: Jnt_L_Index_tip
+    100034: Jnt_L_Knee
+    100036: Jnt_L_Leg
+    100038: Jnt_L_Shoulder
+    100040: Jnt_L_Toe
+    100042: Jnt_L_Wrist
+    100044: Jnt_Mid_Chest
+    100046: Jnt_Neck
+    100048: Jnt_R_Ankle
+    100050: Jnt_R_Arm
+    100052: Jnt_R_Elbow
+    100054: Jnt_R_Forearm
+    100056: Jnt_R_Index1
+    100058: Jnt_R_Index2
+    100060: Jnt_R_Index3
+    100062: Jnt_R_Index_tip
+    100064: Jnt_R_Knee
+    100066: Jnt_R_Leg
+    100068: Jnt_R_Shoulder
+    100070: Jnt_R_Toe
+    100072: Jnt_R_Wrist
+    100074: Jnt_Root
+    100076: Jnt_Waist
+    400000: Ball_Mesh
+    400002: //RootNode
+    400004: DD_BP_6_Skeleton
+    400006: DD_Mesh
+    400008: Jnt_Ball_Helper
+    400010: Jnt_Chest
+    400012: Jnt_Head
+    400014: Jnt_Head_End
+    400016: Jnt_Hip
+    400018: Jnt_L_Ankle
+    400020: Jnt_L_Arm
+    400022: Jnt_L_Elbow
+    400024: Jnt_L_Forearm
+    400026: Jnt_L_Index1
+    400028: Jnt_L_Index2
+    400030: Jnt_L_Index3
+    400032: Jnt_L_Index_tip
+    400034: Jnt_L_Knee
+    400036: Jnt_L_Leg
+    400038: Jnt_L_Shoulder
+    400040: Jnt_L_Toe
+    400042: Jnt_L_Wrist
+    400044: Jnt_Mid_Chest
+    400046: Jnt_Neck
+    400048: Jnt_R_Ankle
+    400050: Jnt_R_Arm
+    400052: Jnt_R_Elbow
+    400054: Jnt_R_Forearm
+    400056: Jnt_R_Index1
+    400058: Jnt_R_Index2
+    400060: Jnt_R_Index3
+    400062: Jnt_R_Index_tip
+    400064: Jnt_R_Knee
+    400066: Jnt_R_Leg
+    400068: Jnt_R_Shoulder
+    400070: Jnt_R_Toe
+    400072: Jnt_R_Wrist
+    400074: Jnt_Root
+    400076: Jnt_Waist
+    4300000: DD_Mesh
+    4300002: Ball_Mesh
+    7400000: Stand_Ball
+    7400002: Walk_Ball
+    7400004: Jog_Ball
+    7400006: Run_Ball
+    7400008: Stand_NoBall
+    7400010: Walk_NoBall
+    7400012: Jog_NoBall
+    7400014: Run_NoBall
+    7400016: Shot
+    7400018: Pass
+    7400020: PassReceive
+    7400022: Steal
+    7400024: SelectIdle1
+    7400026: Defense Forward
+    7400028: Defense Backward
+    7400030: Defense Left
+    7400032: Block Shot
+    7400034: Defense Right
+    7400036: OneHandDunk
+    7400038: ClassicDunk
+    9500000: //RootNode
+    13700000: Ball_Mesh
+    13700002: DD_Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Stand_Ball
+      takeName: Take 001
+      firstFrame: 7999.9995
+      lastFrame: 8021
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ball_Mesh
+        weight: 1
+      - path: DD_BP_6_Skeleton
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Ball_Helper
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle/Jnt_L_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle/Jnt_R_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3/Jnt_L_Index_tip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head/Jnt_Head_End
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3/Jnt_R_Index_tip
+        weight: 1
+      - path: DD_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk_Ball
+      takeName: Take 001
+      firstFrame: 700
+      lastFrame: 726
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ball_Mesh
+        weight: 1
+      - path: DD_BP_6_Skeleton
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Ball_Helper
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle/Jnt_L_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle/Jnt_R_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3/Jnt_L_Index_tip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head/Jnt_Head_End
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3/Jnt_R_Index_tip
+        weight: 1
+      - path: DD_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jog_Ball
+      takeName: Take 001
+      firstFrame: 700
+      lastFrame: 726
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ball_Mesh
+        weight: 1
+      - path: DD_BP_6_Skeleton
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Ball_Helper
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle/Jnt_L_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle/Jnt_R_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3/Jnt_L_Index_tip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head/Jnt_Head_End
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3/Jnt_R_Index_tip
+        weight: 1
+      - path: DD_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run_Ball
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 123
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ball_Mesh
+        weight: 1
+      - path: DD_BP_6_Skeleton
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Ball_Helper
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle/Jnt_L_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle/Jnt_R_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3/Jnt_L_Index_tip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head/Jnt_Head_End
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3/Jnt_R_Index_tip
+        weight: 1
+      - path: DD_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stand_NoBall
+      takeName: Take 001
+      firstFrame: 2300
+      lastFrame: 2330
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ball_Mesh
+        weight: 1
+      - path: DD_BP_6_Skeleton
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Ball_Helper
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle/Jnt_L_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle/Jnt_R_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3/Jnt_L_Index_tip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head/Jnt_Head_End
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3/Jnt_R_Index_tip
+        weight: 1
+      - path: DD_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk_NoBall
+      takeName: Take 001
+      firstFrame: 8300
+      lastFrame: 8332
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ball_Mesh
+        weight: 1
+      - path: DD_BP_6_Skeleton
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Ball_Helper
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle/Jnt_L_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle/Jnt_R_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3/Jnt_L_Index_tip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head/Jnt_Head_End
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3/Jnt_R_Index_tip
+        weight: 1
+      - path: DD_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jog_NoBall
+      takeName: Take 001
+      firstFrame: 4600
+      lastFrame: 4626
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ball_Mesh
+        weight: 1
+      - path: DD_BP_6_Skeleton
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Ball_Helper
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle/Jnt_L_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle/Jnt_R_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3/Jnt_L_Index_tip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head/Jnt_Head_End
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3/Jnt_R_Index_tip
+        weight: 1
+      - path: DD_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run_NoBall
+      takeName: Take 001
+      firstFrame: 300
+      lastFrame: 323
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ball_Mesh
+        weight: 1
+      - path: DD_BP_6_Skeleton
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Ball_Helper
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle/Jnt_L_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle/Jnt_R_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3/Jnt_L_Index_tip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head/Jnt_Head_End
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3/Jnt_R_Index_tip
+        weight: 1
+      - path: DD_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Shot
+      takeName: Take 001
+      firstFrame: 2200
+      lastFrame: 2234
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ball_Mesh
+        weight: 1
+      - path: DD_BP_6_Skeleton
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Ball_Helper
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle/Jnt_L_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle/Jnt_R_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3/Jnt_L_Index_tip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head/Jnt_Head_End
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3/Jnt_R_Index_tip
+        weight: 1
+      - path: DD_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Pass
+      takeName: Take 001
+      firstFrame: 7400
+      lastFrame: 7440
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ball_Mesh
+        weight: 1
+      - path: DD_BP_6_Skeleton
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Ball_Helper
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle/Jnt_L_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle/Jnt_R_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3/Jnt_L_Index_tip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head/Jnt_Head_End
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3/Jnt_R_Index_tip
+        weight: 1
+      - path: DD_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PassReceive
+      takeName: Take 001
+      firstFrame: 7500
+      lastFrame: 7515
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ball_Mesh
+        weight: 1
+      - path: DD_BP_6_Skeleton
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Ball_Helper
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle/Jnt_L_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle/Jnt_R_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3/Jnt_L_Index_tip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head/Jnt_Head_End
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3/Jnt_R_Index_tip
+        weight: 1
+      - path: DD_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Steal
+      takeName: Take 001
+      firstFrame: 5400
+      lastFrame: 5414
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ball_Mesh
+        weight: 1
+      - path: DD_BP_6_Skeleton
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Ball_Helper
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle/Jnt_L_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle/Jnt_R_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3/Jnt_L_Index_tip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head/Jnt_Head_End
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3/Jnt_R_Index_tip
+        weight: 1
+      - path: DD_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SelectIdle1
+      takeName: Take 001
+      firstFrame: 1100
+      lastFrame: 1250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ball_Mesh
+        weight: 1
+      - path: DD_BP_6_Skeleton
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Ball_Helper
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle/Jnt_L_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle/Jnt_R_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3/Jnt_L_Index_tip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head/Jnt_Head_End
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3/Jnt_R_Index_tip
+        weight: 1
+      - path: DD_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Defense Forward
+      takeName: Take 001
+      firstFrame: 7670
+      lastFrame: 7699
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ball_Mesh
+        weight: 1
+      - path: DD_BP_6_Skeleton
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Ball_Helper
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle/Jnt_L_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle/Jnt_R_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3/Jnt_L_Index_tip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head/Jnt_Head_End
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3/Jnt_R_Index_tip
+        weight: 1
+      - path: DD_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Defense Backward
+      takeName: Take 001
+      firstFrame: 7600
+      lastFrame: 7699
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ball_Mesh
+        weight: 1
+      - path: DD_BP_6_Skeleton
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Ball_Helper
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle/Jnt_L_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle/Jnt_R_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3/Jnt_L_Index_tip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head/Jnt_Head_End
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3/Jnt_R_Index_tip
+        weight: 1
+      - path: DD_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Defense Left
+      takeName: Take 001
+      firstFrame: 2400
+      lastFrame: 2423
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ball_Mesh
+        weight: 1
+      - path: DD_BP_6_Skeleton
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Ball_Helper
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle/Jnt_L_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle/Jnt_R_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3/Jnt_L_Index_tip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head/Jnt_Head_End
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3/Jnt_R_Index_tip
+        weight: 1
+      - path: DD_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Block Shot
+      takeName: Take 001
+      firstFrame: 1999.9999
+      lastFrame: 2040
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ball_Mesh
+        weight: 1
+      - path: DD_BP_6_Skeleton
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Ball_Helper
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle/Jnt_L_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle/Jnt_R_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3/Jnt_L_Index_tip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head/Jnt_Head_End
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3/Jnt_R_Index_tip
+        weight: 1
+      - path: DD_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Defense Right
+      takeName: Take 001
+      firstFrame: 1700
+      lastFrame: 1723
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ball_Mesh
+        weight: 1
+      - path: DD_BP_6_Skeleton
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Ball_Helper
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle/Jnt_L_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle/Jnt_R_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3/Jnt_L_Index_tip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head/Jnt_Head_End
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3/Jnt_R_Index_tip
+        weight: 1
+      - path: DD_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: OneHandDunk
+      takeName: Take 001
+      firstFrame: 8600
+      lastFrame: 8643
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ball_Mesh
+        weight: 1
+      - path: DD_BP_6_Skeleton
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Ball_Helper
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle/Jnt_L_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle/Jnt_R_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3/Jnt_L_Index_tip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head/Jnt_Head_End
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3/Jnt_R_Index_tip
+        weight: 1
+      - path: DD_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ClassicDunk
+      takeName: Take 001
+      firstFrame: 3097
+      lastFrame: 3160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ball_Mesh
+        weight: 1
+      - path: DD_BP_6_Skeleton
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Ball_Helper
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_L_Leg/Jnt_L_Knee/Jnt_L_Ankle/Jnt_L_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Hip/Jnt_R_Leg/Jnt_R_Knee/Jnt_R_Ankle/Jnt_R_Toe
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_L_Shoulder/Jnt_L_Arm/Jnt_L_Elbow/Jnt_L_Forearm/Jnt_L_Wrist/Jnt_L_Index1/Jnt_L_Index2/Jnt_L_Index3/Jnt_L_Index_tip
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_Neck/Jnt_Head/Jnt_Head_End
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3
+        weight: 1
+      - path: DD_BP_6_Skeleton/Jnt_Root/Jnt_Waist/Jnt_Chest/Jnt_Mid_Chest/Jnt_R_Shoulder/Jnt_R_Arm/Jnt_R_Elbow/Jnt_R_Forearm/Jnt_R_Wrist/Jnt_R_Index1/Jnt_R_Index2/Jnt_R_Index3/Jnt_R_Index_tip
+        weight: 1
+      - path: DD_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

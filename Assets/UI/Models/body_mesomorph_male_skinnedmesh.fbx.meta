@@ -1,0 +1,150 @@
+fileFormatVersion: 2
+guid: 4f1d27acb4477477bb3dfbf9f2a579d0
+timeCreated: 1489127985
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body_Meso
+    100002: //RootNode
+    100004: DD_BP_6_Skeleton
+    100006: Jnt_Ball_Helper
+    100008: Jnt_Chest
+    100010: Jnt_Head
+    100012: Jnt_Head_End
+    100014: Jnt_Hip
+    100016: Jnt_L_Ankle
+    100018: Jnt_L_Arm
+    100020: Jnt_L_Elbow
+    100022: Jnt_L_Forearm
+    100024: Jnt_L_Index1
+    100026: Jnt_L_Index2
+    100028: Jnt_L_Index3
+    100030: Jnt_L_Index_tip
+    100032: Jnt_L_Knee
+    100034: Jnt_L_Leg
+    100036: Jnt_L_Shoulder
+    100038: Jnt_L_Toe
+    100040: Jnt_L_Wrist
+    100042: Jnt_Mid_Chest
+    100044: Jnt_Neck
+    100046: Jnt_R_Ankle
+    100048: Jnt_R_Arm
+    100050: Jnt_R_Elbow
+    100052: Jnt_R_Forearm
+    100054: Jnt_R_Index1
+    100056: Jnt_R_Index2
+    100058: Jnt_R_Index3
+    100060: Jnt_R_Index_tip
+    100062: Jnt_R_Knee
+    100064: Jnt_R_Leg
+    100066: Jnt_R_Shoulder
+    100068: Jnt_R_Toe
+    100070: Jnt_R_Wrist
+    100072: Jnt_Root
+    100074: Jnt_Waist
+    400000: Body_Meso
+    400002: //RootNode
+    400004: DD_BP_6_Skeleton
+    400006: Jnt_Ball_Helper
+    400008: Jnt_Chest
+    400010: Jnt_Head
+    400012: Jnt_Head_End
+    400014: Jnt_Hip
+    400016: Jnt_L_Ankle
+    400018: Jnt_L_Arm
+    400020: Jnt_L_Elbow
+    400022: Jnt_L_Forearm
+    400024: Jnt_L_Index1
+    400026: Jnt_L_Index2
+    400028: Jnt_L_Index3
+    400030: Jnt_L_Index_tip
+    400032: Jnt_L_Knee
+    400034: Jnt_L_Leg
+    400036: Jnt_L_Shoulder
+    400038: Jnt_L_Toe
+    400040: Jnt_L_Wrist
+    400042: Jnt_Mid_Chest
+    400044: Jnt_Neck
+    400046: Jnt_R_Ankle
+    400048: Jnt_R_Arm
+    400050: Jnt_R_Elbow
+    400052: Jnt_R_Forearm
+    400054: Jnt_R_Index1
+    400056: Jnt_R_Index2
+    400058: Jnt_R_Index3
+    400060: Jnt_R_Index_tip
+    400062: Jnt_R_Knee
+    400064: Jnt_R_Leg
+    400066: Jnt_R_Shoulder
+    400068: Jnt_R_Toe
+    400070: Jnt_R_Wrist
+    400072: Jnt_Root
+    400074: Jnt_Waist
+    4300000: Body_Meso
+    9500000: //RootNode
+    13700000: Body_Meso
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

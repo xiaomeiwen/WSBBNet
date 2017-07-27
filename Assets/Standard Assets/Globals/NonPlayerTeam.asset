@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1406037b2b7477e40b21b00979b14cbf, type: 3}
+  m_Name: NonPlayerTeam
+  m_EditorClassIdentifier: 
+  parameters: []
+  states:
+  - {fileID: 11400002}
+  - {fileID: 11400004}
+  - {fileID: 11400006}
+  - {fileID: 11400008}
+  description: 
+  root: {fileID: 11400000}
+  layers: []
+  layer: 0
+  enabled: 1
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64a55b71f5a71b94a8378054584ca02f, type: 3}
+  m_Name: Any State
+  m_EditorClassIdentifier: 
+  position:
+    serializedVersion: 2
+    x: 25000
+    y: 25000
+    width: 150
+    height: 30
+  id: 2ab946d7-f214-4dd9-99bb-9bb691db6683
+  color: 0
+  isDefaultState: 0
+  transitions: []
+  actions: []
+  description: 
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5132a9f7ee3f75943a7cfcc012490704, type: 3}
+  m_Name: New State
+  m_EditorClassIdentifier: 
+  position:
+    serializedVersion: 2
+    x: 24820
+    y: 24914
+    width: 150
+    height: 30
+  id: 32964aae-fb34-4ac5-81f6-7fc896ae4da5
+  color: 0
+  isDefaultState: 1
+  transitions: []
+  actions: []
+  description: 
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5132a9f7ee3f75943a7cfcc012490704, type: 3}
+  m_Name: New State
+  m_EditorClassIdentifier: 
+  position:
+    serializedVersion: 2
+    x: 24641
+    y: 24977
+    width: 150
+    height: 30
+  id: 8435f1d2-3fb4-4d3d-ae3f-77ae7f3e7eb2
+  color: 0
+  isDefaultState: 0
+  transitions: []
+  actions: []
+  description: 
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5132a9f7ee3f75943a7cfcc012490704, type: 3}
+  m_Name: New State
+  m_EditorClassIdentifier: 
+  position:
+    serializedVersion: 2
+    x: 24709
+    y: 25052
+    width: 150
+    height: 30
+  id: caf7b47e-27cf-4bed-8ed4-dc640438c780
+  color: 0
+  isDefaultState: 0
+  transitions: []
+  actions: []
+  description: 

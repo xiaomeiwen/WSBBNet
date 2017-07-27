@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{FDE690F1-626F-FFA0-5754-E83120972A79}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VIDEO;ENABLE_VR;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\EZ\GUI\Controls\EZ_UIButton.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Controls\UIActionBtn.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Controls\UIBtnChangePanel.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Controls\UIBtnLoadScene.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Controls\UIBtnWWW.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Controls\UIButton3D.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Controls\UIListButton.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Controls\UIListItem.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Controls\UIListItemContainer.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Controls\UIPanelTab.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Controls\UIProgressBar.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Controls\UIRadioBtn.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Controls\UIRadioBtn3D.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Controls\UIScrollList.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Controls\UISlider.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Controls\UIStateToggleBtn.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Controls\UIStateToggleBtn3D.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Controls\UITextField.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Controls\UIVirtualScreen.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Management\EZ_UIPanel.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Management\UIBistateInteractivePanel.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Management\UIInteractivePanel.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Management\UIManager.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Management\UIPanelManager.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Support\AutoSpriteControlBase.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Support\ControlBase.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Support\EZDragDropHelper.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Support\IControl.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Support\IKeyFocusable.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Support\IPackableControl.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Support\IUIContainer.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Support\IUIObject.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Support\UIPanelBase.cs" />
+     <Compile Include="Assets\Plugins\EZ\GUI\Support\UIScrollKnob.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\SimpleSprite.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\SpriteManager.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\SpriteText.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\AutoSprite.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\AutoSpriteBase.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\EZAnimator.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\EZScreenPlacement.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\FontStore.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\ISpriteAggregator.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\ISpriteAnimatable.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\ISpriteMesh.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\ISpritePackable.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\IUseCamera.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\PackableStub.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\SpriteAnimationPump.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\SpriteBase.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\SpriteFont.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\SpriteMesh.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\SpriteMesh_Managed.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\SpriteRoot.cs" />
+     <Compile Include="Assets\Standard Assets\Ball\Ball.cs" />
+     <Compile Include="Assets\Standard Assets\Ball\BallStateMachine.cs" />
+     <Compile Include="Assets\Standard Assets\Baller AI\BBallerStateMachine.cs" />
+     <Compile Include="Assets\Standard Assets\Baller AI\BallerAI.cs" />
+     <Compile Include="Assets\Standard Assets\Baller AI\Defense_PosFinder.cs" />
+     <Compile Include="Assets\Standard Assets\Baller AI\SpotPicker.cs" />
+     <Compile Include="Assets\Standard Assets\Baller AI\WSBBAI.cs" />
+     <Compile Include="Assets\Standard Assets\Baller\Scripts\BBaller.cs" />
+     <Compile Include="Assets\Standard Assets\Baller\Scripts\BBaller_Control_Player.cs" />
+     <Compile Include="Assets\Standard Assets\Baller\Scripts\BBaller_anim.cs" />
+     <Compile Include="Assets\Standard Assets\Baller\Scripts\BBaller_skin.cs" />
+     <Compile Include="Assets\Standard Assets\Baller\Scripts\Ball_Visual_Control.cs" />
+     <Compile Include="Assets\Standard Assets\Baller\Scripts\BallerTextureReplace.cs" />
+     <Compile Include="Assets\Standard Assets\Baller\Scripts\ShotIndicator.cs" />
+     <Compile Include="Assets\Standard Assets\Camera\CameraArm.cs" />
+     <Compile Include="Assets\Standard Assets\Events\BallerEvents.cs" />
+     <Compile Include="Assets\Standard Assets\Game\GameStateMachine.cs" />
+     <Compile Include="Assets\Standard Assets\Game_UI\Scripts\GameAdmin.cs" />
+     <Compile Include="Assets\Standard Assets\Game_UI\Scripts\ItemDisplay.cs" />
+     <Compile Include="Assets\Standard Assets\Game_UI\Scripts\Scoreboard.cs" />
+     <Compile Include="Assets\Standard Assets\Globals\Scripts\BBallerData.cs" />
+     <Compile Include="Assets\Standard Assets\Globals\Scripts\CourtItem.cs" />
+     <Compile Include="Assets\Standard Assets\Globals\Scripts\DunkItem.cs" />
+     <Compile Include="Assets\Standard Assets\Globals\Scripts\GameAnims.cs" />
+     <Compile Include="Assets\Standard Assets\Globals\Scripts\GameBallers.cs" />
+     <Compile Include="Assets\Standard Assets\Globals\Scripts\GameData.cs" />
+     <Compile Include="Assets\Standard Assets\Globals\Scripts\GameDataParent.cs" />
+     <Compile Include="Assets\Standard Assets\Globals\Scripts\GameDunks.cs" />
+     <Compile Include="Assets\Standard Assets\Globals\Scripts\GameItems.cs" />
+     <Compile Include="Assets\Standard Assets\Globals\Scripts\GameLogo.cs" />
+     <Compile Include="Assets\Standard Assets\Globals\Scripts\GameSounds.cs" />
+     <Compile Include="Assets\Standard Assets\Globals\Scripts\GameUniforms.cs" />
+     <Compile Include="Assets\Standard Assets\Globals\Scripts\Item.cs" />
+     <Compile Include="Assets\Standard Assets\Globals\Scripts\LogoItem.cs" />
+     <Compile Include="Assets\Standard Assets\Globals\Scripts\UniformItem.cs" />
+     <Compile Include="Assets\Standard Assets\Globals\XML Parser\XMLNode.cs" />
+     <Compile Include="Assets\Standard Assets\Globals\XML Parser\XMLNodeList.cs" />
+     <Compile Include="Assets\Standard Assets\Globals\XML Parser\XMLParser.cs" />
+     <Compile Include="Assets\Standard Assets\MainMenu\MainMenuState.cs" />
+     <Compile Include="Assets\Standard Assets\MainMenu\ScreenScripts\BallerIcon.cs" />
+     <Compile Include="Assets\Standard Assets\MainMenu\ScreenScripts\BlingPopUp.cs" />
+     <Compile Include="Assets\Standard Assets\MainMenu\ScreenScripts\CourtScreen.cs" />
+     <Compile Include="Assets\Standard Assets\MainMenu\ScreenScripts\GeneralTeamScreen.cs" />
+     <Compile Include="Assets\Standard Assets\MainMenu\ScreenScripts\ItemScreen.cs" />
+     <Compile Include="Assets\Standard Assets\MainMenu\ScreenScripts\MannequinManager.cs" />
+     <Compile Include="Assets\Standard Assets\MainMenu\ScreenScripts\MenuScreen.cs" />
+     <Compile Include="Assets\Standard Assets\MainMenu\ScreenScripts\OptionGameScreen.cs" />
+     <Compile Include="Assets\Standard Assets\MainMenu\ScreenScripts\OptionSoundScreen.cs" />
+     <Compile Include="Assets\Standard Assets\MainMenu\ScreenScripts\PlayerPicker.cs" />
+     <Compile Include="Assets\Standard Assets\MainMenu\ScreenScripts\PurchasePopUp.cs" />
+     <Compile Include="Assets\Standard Assets\MainMenu\ScreenScripts\StartScreen.cs" />
+     <Compile Include="Assets\Standard Assets\MainMenu\ScreenScripts\TeamCheck.cs" />
+     <Compile Include="Assets\Standard Assets\MainMenu\ScreenScripts\TeamLogoSelect.cs" />
+     <Compile Include="Assets\Standard Assets\MainMenu\ScreenScripts\TeamSelectScreen.cs" />
+     <Compile Include="Assets\Standard Assets\MainMenu\ScreenScripts\UniformScreen.cs" />
+     <Compile Include="Assets\Standard Assets\Menu_UI_Old\General\Scripts\LoadScreen.cs" />
+     <Compile Include="Assets\Standard Assets\Menu_UI_Old\General\Scripts\ScreenHelpers.cs" />
+     <Compile Include="Assets\Standard Assets\Menu_UI_Old\PlayerBars\Scripts\PlayerBars.cs" />
+     <Compile Include="Assets\Standard Assets\Menu_UI_Old\PlayerTile\Scripts\PlayerTile.cs" />
+     <Compile Include="Assets\Standard Assets\StatGetters\Script\PlayerStat.cs" />
+     <Compile Include="Assets\Standard Assets\StatGetters\Script\TeamStat.cs" />
+     <Compile Include="Assets\Standard Assets\StateMachineBase\ISMObject.cs" />
+     <Compile Include="Assets\Standard Assets\StateMachineBase\State.cs" />
+     <Compile Include="Assets\Standard Assets\StateMachineBase\StateMachine.cs" />
+     <Compile Include="Assets\Standard Assets\States\GameStateMachine.cs" />
+     <Compile Include="Assets\Standard Assets\Team\Scripts\Team.cs" />
+     <Compile Include="Assets\Standard Assets\Team\Scripts\TeamStateMachine.cs" />
+     <Compile Include="Assets\Standard Assets\Team\Scripts\Team_Manager.cs" />
+     <Compile Include="Assets\Standard Assets\Utilities\DataLoader.cs" />
+     <Compile Include="Assets\Standard Assets\Utilities\Disappear.cs" />
+     <Compile Include="Assets\Standard Assets\XmlImporter\D_Trials.cs" />
+     <Compile Include="Assets\Standard Assets\XmlImporter\Scripts\DefaultPlayer.cs" />
+     <Compile Include="Assets\Standard Assets\XmlImporter\Scripts\Formula.cs" />
+     <Compile Include="Assets\Standard Assets\XmlImporter\Scripts\PowerUpLoader.cs" />
+     <Compile Include="Assets\Standard Assets\XmlImporter\Scripts\Powerup.cs" />
+     <Compile Include="Assets\Standard Assets\XmlImporter\Scripts\SelectTeam.cs" />
+     <Compile Include="Assets\Standard Assets\XmlImporter\Scripts\SetText.cs" />
+     <Compile Include="Assets\Standard Assets\XmlImporter\Scripts\Team.cs" />
+     <Compile Include="Assets\Standard Assets\XmlImporter\Scripts\TeamLoader.cs" />
+     <Compile Include="Assets\Standard Assets\XmlImporter\Scripts\XMLDataParser.cs" />
+     <None Include="Assets\Plugins\AnBSoft Common\Standard Font\Arial, Fancy.txt" />
+     <None Include="Assets\Plugins\AnBSoft Common\Standard Shaders\Sprite Vertex Colored, Fast.shader" />
+     <None Include="Assets\Plugins\AnBSoft Common\Standard Shaders\Sprite Simple Texture .shader" />
+     <None Include="Assets\Plugins\AnBSoft Common\Standard Shaders\Sprite Cutout.shader" />
+     <None Include="Assets\Standard Assets\XmlImporter\xml\powerups.xml" />
+     <None Include="Assets\Plugins\AnBSoft Common\Standard Shaders\Sprite Vertex Colored.shader" />
+     <None Include="Assets\Standard Assets\XmlImporter\xml\default_players.xml" />
+     <None Include="Assets\Standard Assets\XmlImporter\xml\teams.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,44 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Game_UI/Scripts/GameAdmin.cs">
+    <Files>
+      <File FileName="Assets/UI/Scripts/PressDiffMainOptions.cs" Line="1" Column="1" />
+      <File FileName="Assets/UI/Scripts/ChangeExpValue.cs" Line="1" Column="1" />
+      <File FileName="Assets/UI/Scripts/DataFromUI.cs" Line="60" Column="1" />
+      <File FileName="Assets/UI/Scripts/ButtonPlayCourtSelect.cs" Line="1" Column="1" />
+      <File FileName="Assets/UI/Scripts/ChangePlayerLook.cs" Line="1" Column="1" />
+      <File FileName="Assets/UI/Scripts/CanvasTeam.cs" Line="1" Column="1" />
+      <File FileName="Assets/UI/Scripts/AddPlayersToGameScreen.cs" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/Baller/Scripts/BBaller_anim.cs" Line="1" Column="1" />
+      <File FileName="Assets/UI/Scripts/SelectedCardsPanel.cs" Line="1" Column="1" />
+      <File FileName="Assets/UI/Scripts/CanvasPlayers.cs" Line="1" Column="1" />
+      <File FileName="Assets/UI/Scripts/DragCards.cs" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/XmlImporter/Scripts/Formula.cs" Line="1" Column="1" />
+      <File FileName="Assets/UI/Scripts/ButtonAISelect.cs" Line="1" Column="1" />
+      <File FileName="Assets/UI/Scripts/ImageAssignButtonScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/UI/Scripts/passCharacters.cs" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/Utilities/DataLoader.cs" Line="1" Column="1" />
+      <File FileName="Assets/UI/Scripts/SplashScreen.cs" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/Game/GameStateMachine.cs" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/Game_UI/Scripts/GameAdmin.cs" Line="78" Column="12" />
+      <File FileName="Assets/Standard Assets/Globals/Scripts/CourtItem.cs" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/Globals/Scripts/BBallerData.cs" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/Baller/Scripts/BBaller_Control_Player.cs" Line="1" Column="1" />
+      <File FileName="Assets/UI/Scripts/ChooseBling.cs" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/Baller/Scripts/BBaller.cs" Line="782" Column="50" />
+      <File FileName="Assets/Standard Assets/Baller/Scripts/BBaller_skin.cs" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/Baller/Scripts/Ball_Visual_Control.cs" Line="1" Column="1" />
+      <File FileName="Assets/UI/Scripts/playAnimation.cs" Line="1" Column="1" />
+      <File FileName="Assets/UI/Scripts/CourtImageAssign.cs" Line="1" Column="1" />
+      <File FileName="Assets/UI/Scripts/SwitchPlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/XmlImporter/Scripts/TeamLoader.cs" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/XmlImporter/Scripts/XMLDataParser.cs" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/XmlImporter/Scripts/SelectTeam.cs" Line="1" Column="1" />
+      <File FileName="Assets/UI/Scripts/changeCoinEnergy.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

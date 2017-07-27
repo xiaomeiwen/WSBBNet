@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<powerups>
+	<powerup>
+		<name>Bronze Speedy</name>
+		<description>Increases Speed by 5 plus 0.5 per level.</description>
+		<attribute>Speed</attribute>
+		<buffBase>5</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>20</cost>
+		<pack> Speedy</pack>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Silver Speedy</name>
+		<description>Increases Speed by 10 plus 0.5 per level.</description>
+		<attribute>Speed</attribute>
+		<buffBase>10</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>55</cost>
+		<pack> Speedy</pack>
+		<cardLevel>Silver </cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Gold  Speedy</name>
+		<description>Increases Speed by 15 plus 1.5 per level.</description>
+		<attribute>Speed</attribute>
+		<buffBase>15</buffBase>
+		<buffIncrement>1.5</buffIncrement>
+		<cost>90</cost>
+		<pack> Speedy</pack>
+		<cardLevel>Gold </cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Bronze Skills to Pay the Bills</name>
+		<description>Increases Skill by 5 plus 0.5 per level.</description>
+		<attribute>Skill</attribute>
+		<buffBase>5</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>20</cost>
+		<pack> Skills to Pay the Bills</pack>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Silver  Skills to Pay the Bills</name>
+		<description>Increases Skill by 10 plus 0.5 per level.</description>
+		<attribute>Skill</attribute>
+		<buffBase>10</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>55</cost>
+		<pack> Skills to Pay the Bills</pack>
+		<cardLevel>Silver </cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Gold  Skills to Pay the Bills</name>
+		<description>Increases Skill by 15 plus 1.5 per level.</description>
+		<attribute>Skill</attribute>
+		<buffBase>15</buffBase>
+		<buffIncrement>1.5</buffIncrement>
+		<cost>90</cost>
+		<pack> Skills to Pay the Bills</pack>
+		<cardLevel>Gold </cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Bronze Power Up</name>
+		<description>Increases Power by 5 plus 0.5 per level.</description>
+		<attribute>Power</attribute>
+		<buffBase>5</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>20</cost>
+		<pack> Power Up</pack>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Silver  Power Up</name>
+		<description>Increases Power by 10 plus 0.5 per level.</description>
+		<attribute>Power</attribute>
+		<buffBase>10</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>55</cost>
+		<pack> Power Up</pack>
+		<cardLevel>Silver </cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Gold  Power Up</name>
+		<description>Increases Power by 15 plus 1.5 per level.</description>
+		<attribute>Power</attribute>
+		<buffBase>15</buffBase>
+		<buffIncrement>1.5</buffIncrement>
+		<cost>90</cost>
+		<pack> Power Up</pack>
+		<cardLevel>Gold </cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Bronze Block</name>
+		<description>Increases Block Base  by 5 plus 0.5 per level.</description>
+		<attribute>Block Base </attribute>
+		<buffBase>5</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>15</cost>
+		<pack> Block</pack>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Silver  Block</name>
+		<description>Increases Block Base  by 10 plus 0.5 per level.</description>
+		<attribute>Block Base </attribute>
+		<buffBase>10</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>60</cost>
+		<pack> Block</pack>
+		<cardLevel>Silver </cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Gold  Block</name>
+		<description>Increases Block Base  by 15 plus 1.5 per level.</description>
+		<attribute>Block Base </attribute>
+		<buffBase>15</buffBase>
+		<buffIncrement>1.5</buffIncrement>
+		<cost>105</cost>
+		<pack> Block</pack>
+		<cardLevel>Gold </cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Bronze Authority</name>
+		<description>Increases Shoot Base  within 2 point range by 5 plus 0.5 per level.</description>
+		<attribute>Shoot Base </attribute>
+		<buffBase>5</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>15</cost>
+		<pack> Authority</pack>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Silver  Authority</name>
+		<description>Increases Shoot Base  within 2 point range by 10 plus 0.5 per level.</description>
+		<attribute>Shoot Base </attribute>
+		<buffBase>10</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>60</cost>
+		<pack> Authority</pack>
+		<cardLevel>Silver </cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Gold  Authority</name>
+		<description>Increases Shoot Base  within 2 point range by 15 plus 1.5 per level.</description>
+		<attribute>Shoot Base </attribute>
+		<buffBase>15</buffBase>
+		<buffIncrement>1.5</buffIncrement>
+		<cost>105</cost>
+		<pack> Authority</pack>
+		<cardLevel>Gold </cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Bronze Sticky Fingers</name>
+		<description>Increases Steal Base  by 5 plus 0.5 per level.</description>
+		<attribute>Steal Base </attribute>
+		<buffBase>5</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>15</cost>
+		<pack> Sticky Fingers</pack>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Silver  Sticky Fingers</name>
+		<description>Increases Steal Base  by 10 plus 0.5 per level.</description>
+		<attribute>Steal Base </attribute>
+		<buffBase>10</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>60</cost>
+		<pack> Sticky Fingers</pack>
+		<cardLevel>Silver </cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Gold  Sticky Fingers</name>
+		<description>Increases Steal Base  by 15 plus 1.5 per level.</description>
+		<attribute>Steal Base </attribute>
+		<buffBase>15</buffBase>
+		<buffIncrement>1.5</buffIncrement>
+		<cost>105</cost>
+		<pack> Sticky Fingers</pack>
+		<cardLevel>Gold </cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Bronze Steady Hands</name>
+		<description>Increases Pass Base  by 5 plus 0.5 per level.</description>
+		<attribute>Pass Base </attribute>
+		<buffBase>5</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>15</cost>
+		<pack> Steady Hands</pack>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Silver  Steady Hands</name>
+		<description>Increases Pass Base  by 10 plus 0.5 per level.</description>
+		<attribute>Pass Base </attribute>
+		<buffBase>10</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>60</cost>
+		<pack> Steady Hands</pack>
+		<cardLevel>Silver </cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Gold  Steady Hands</name>
+		<description>Increases Pass Base  by 15 plus 1.5 per level.</description>
+		<attribute>Pass Base </attribute>
+		<buffBase>15</buffBase>
+		<buffIncrement>1.5</buffIncrement>
+		<cost>105</cost>
+		<pack> Steady Hands</pack>
+		<cardLevel>Gold </cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Bronze Mac Truck</name>
+		<description>Increases Drive Base  by 5 plus 0.5 per level.</description>
+		<attribute>Drive Base </attribute>
+		<buffBase>5</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>15</cost>
+		<pack> Mac Truck</pack>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Silver  Mac Truck</name>
+		<description>Increases Drive Base  by 10 plus 0.5 per level.</description>
+		<attribute>Drive Base </attribute>
+		<buffBase>10</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>60</cost>
+		<pack> Mac Truck</pack>
+		<cardLevel>Silver </cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Gold  Mac Truck</name>
+		<description>Increases Drive Base  by 15 plus 1.5 per level.</description>
+		<attribute>Drive Base </attribute>
+		<buffBase>15</buffBase>
+		<buffIncrement>1.5</buffIncrement>
+		<cost>105</cost>
+		<pack> Mac Truck</pack>
+		<cardLevel>Gold </cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Bronze Magic Hands</name>
+		<description>Increases Ball Handling Base  by 5 plus 0.5 per level.</description>
+		<attribute>Ball Handling Base </attribute>
+		<buffBase>5</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>15</cost>
+		<pack> Magic Hands</pack>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Silver  Magic Hands</name>
+		<description>Increases Ball Handling Base  by 10 plus 0.5 per level.</description>
+		<attribute>Ball Handling Base </attribute>
+		<buffBase>10</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>60</cost>
+		<pack> Magic Hands</pack>
+		<cardLevel>Silver </cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Gold  Magic Hands</name>
+		<description>Increases Ball Handling Base  by 15 plus 1.5 per level.</description>
+		<attribute>Ball Handling Base </attribute>
+		<buffBase>15</buffBase>
+		<buffIncrement>1.5</buffIncrement>
+		<cost>105</cost>
+		<pack> Magic Hands</pack>
+		<cardLevel>Gold </cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Bronze Wall</name>
+		<description>Increases Guard Base  by 5 plus 0.5 per level.</description>
+		<attribute>Guard Base </attribute>
+		<buffBase>5</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>15</cost>
+		<pack> Wall</pack>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Silver  Wall</name>
+		<description>Increases Guard Base  by 10 plus 0.5 per level.</description>
+		<attribute>Guard Base </attribute>
+		<buffBase>10</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>60</cost>
+		<pack> Wall</pack>
+		<cardLevel>Silver </cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Gold  Wall</name>
+		<description>Increases Guard Base  by 15 plus 1.5 per level.</description>
+		<attribute>Guard Base </attribute>
+		<buffBase>15</buffBase>
+		<buffIncrement>1.5</buffIncrement>
+		<cost>105</cost>
+		<pack> Wall</pack>
+		<cardLevel>Gold </cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<playerScope>I</playerScope>
+	</powerup>
+</powerups>

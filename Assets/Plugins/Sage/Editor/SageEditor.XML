@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SageEditor</name>
+    </assembly>
+    <members>
+        <member name="T:SageEditorInternal.TMCommandInterface">
+            <summary>
+            This is the interface for a command.
+            </summary>
+        </member>
+        <member name="M:SageEditorInternal.TMCommandInterface.Execute">
+            <summary>
+            This executes this command.
+            </summary>
+        </member>
+        <member name="M:SageEditorInternal.TMCommandInterface.GetUndoCommand">
+            <summary>
+            This gets the undo command for this command.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:SageEditorInternal.TMCommandInterface.Label">
+            <summary>
+            This is the label that displays to indicate what this command is doing.
+            </summary>
+        </member>
+    </members>
+</doc>

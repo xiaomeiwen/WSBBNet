@@ -1,0 +1,229 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:'Temp/Assembly-CSharp-firstpass.dll'
+-unsafe
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/nunit.framework.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll'
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_5_6_1
+-define:UNITY_5_6
+-define:UNITY_5
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_RUNTIME_NAVMESH_BUILDING
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_SCRIPTING_NEW_CSHARP_COMPILER
+-define:ENABLE_VIDEO
+-define:UNITY_STANDALONE_OSX
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GAMECENTER
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_VR
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+'Assets/Plugins/EZ/GUI/Controls/EZ_UIButton.cs'
+'Assets/Plugins/EZ/GUI/Controls/UIActionBtn.cs'
+'Assets/Plugins/EZ/GUI/Controls/UIBtnChangePanel.cs'
+'Assets/Plugins/EZ/GUI/Controls/UIBtnLoadScene.cs'
+'Assets/Plugins/EZ/GUI/Controls/UIBtnWWW.cs'
+'Assets/Plugins/EZ/GUI/Controls/UIButton3D.cs'
+'Assets/Plugins/EZ/GUI/Controls/UIListButton.cs'
+'Assets/Plugins/EZ/GUI/Controls/UIListItem.cs'
+'Assets/Plugins/EZ/GUI/Controls/UIListItemContainer.cs'
+'Assets/Plugins/EZ/GUI/Controls/UIPanelTab.cs'
+'Assets/Plugins/EZ/GUI/Controls/UIProgressBar.cs'
+'Assets/Plugins/EZ/GUI/Controls/UIRadioBtn.cs'
+'Assets/Plugins/EZ/GUI/Controls/UIRadioBtn3D.cs'
+'Assets/Plugins/EZ/GUI/Controls/UIScrollList.cs'
+'Assets/Plugins/EZ/GUI/Controls/UISlider.cs'
+'Assets/Plugins/EZ/GUI/Controls/UIStateToggleBtn.cs'
+'Assets/Plugins/EZ/GUI/Controls/UIStateToggleBtn3D.cs'
+'Assets/Plugins/EZ/GUI/Controls/UITextField.cs'
+'Assets/Plugins/EZ/GUI/Controls/UIVirtualScreen.cs'
+'Assets/Plugins/EZ/GUI/Management/EZ_UIPanel.cs'
+'Assets/Plugins/EZ/GUI/Management/UIBistateInteractivePanel.cs'
+'Assets/Plugins/EZ/GUI/Management/UIInteractivePanel.cs'
+'Assets/Plugins/EZ/GUI/Management/UIManager.cs'
+'Assets/Plugins/EZ/GUI/Management/UIPanelManager.cs'
+'Assets/Plugins/EZ/GUI/Support/AutoSpriteControlBase.cs'
+'Assets/Plugins/EZ/GUI/Support/ControlBase.cs'
+'Assets/Plugins/EZ/GUI/Support/EZDragDropHelper.cs'
+'Assets/Plugins/EZ/GUI/Support/IControl.cs'
+'Assets/Plugins/EZ/GUI/Support/IKeyFocusable.cs'
+'Assets/Plugins/EZ/GUI/Support/IPackableControl.cs'
+'Assets/Plugins/EZ/GUI/Support/IUIContainer.cs'
+'Assets/Plugins/EZ/GUI/Support/IUIObject.cs'
+'Assets/Plugins/EZ/GUI/Support/UIPanelBase.cs'
+'Assets/Plugins/EZ/GUI/Support/UIScrollKnob.cs'
+'Assets/Plugins/Sprite Scripts/SimpleSprite.cs'
+'Assets/Plugins/Sprite Scripts/SpriteManager.cs'
+'Assets/Plugins/Sprite Scripts/SpriteText.cs'
+'Assets/Plugins/Sprite Scripts/Support/AutoSprite.cs'
+'Assets/Plugins/Sprite Scripts/Support/AutoSpriteBase.cs'
+'Assets/Plugins/Sprite Scripts/Support/EZAnimator.cs'
+'Assets/Plugins/Sprite Scripts/Support/EZScreenPlacement.cs'
+'Assets/Plugins/Sprite Scripts/Support/FontStore.cs'
+'Assets/Plugins/Sprite Scripts/Support/ISpriteAggregator.cs'
+'Assets/Plugins/Sprite Scripts/Support/ISpriteAnimatable.cs'
+'Assets/Plugins/Sprite Scripts/Support/ISpriteMesh.cs'
+'Assets/Plugins/Sprite Scripts/Support/ISpritePackable.cs'
+'Assets/Plugins/Sprite Scripts/Support/IUseCamera.cs'
+'Assets/Plugins/Sprite Scripts/Support/PackableStub.cs'
+'Assets/Plugins/Sprite Scripts/Support/SpriteAnimationPump.cs'
+'Assets/Plugins/Sprite Scripts/Support/SpriteBase.cs'
+'Assets/Plugins/Sprite Scripts/Support/SpriteFont.cs'
+'Assets/Plugins/Sprite Scripts/Support/SpriteMesh.cs'
+'Assets/Plugins/Sprite Scripts/Support/SpriteMesh_Managed.cs'
+'Assets/Plugins/Sprite Scripts/Support/SpriteRoot.cs'
+'Assets/Standard Assets/Ball/Ball.cs'
+'Assets/Standard Assets/Ball/BallStateMachine.cs'
+'Assets/Standard Assets/Baller AI/BBallerStateMachine.cs'
+'Assets/Standard Assets/Baller AI/BallerAI.cs'
+'Assets/Standard Assets/Baller AI/Defense_PosFinder.cs'
+'Assets/Standard Assets/Baller AI/SpotPicker.cs'
+'Assets/Standard Assets/Baller AI/WSBBAI.cs'
+'Assets/Standard Assets/Baller/Scripts/BBaller.cs'
+'Assets/Standard Assets/Baller/Scripts/BBaller_Control_Player.cs'
+'Assets/Standard Assets/Baller/Scripts/BBaller_anim.cs'
+'Assets/Standard Assets/Baller/Scripts/BBaller_skin.cs'
+'Assets/Standard Assets/Baller/Scripts/Ball_Visual_Control.cs'
+'Assets/Standard Assets/Baller/Scripts/BallerTextureReplace.cs'
+'Assets/Standard Assets/Baller/Scripts/ShotIndicator.cs'
+'Assets/Standard Assets/Camera/CameraArm.cs'
+'Assets/Standard Assets/Events/BallerEvents.cs'
+'Assets/Standard Assets/Game/GameStateMachine.cs'
+'Assets/Standard Assets/Game_UI/Scripts/GameAdmin.cs'
+'Assets/Standard Assets/Game_UI/Scripts/ItemDisplay.cs'
+'Assets/Standard Assets/Game_UI/Scripts/Scoreboard.cs'
+'Assets/Standard Assets/Globals/Scripts/BBallerData.cs'
+'Assets/Standard Assets/Globals/Scripts/CourtItem.cs'
+'Assets/Standard Assets/Globals/Scripts/DunkItem.cs'
+'Assets/Standard Assets/Globals/Scripts/GameAnims.cs'
+'Assets/Standard Assets/Globals/Scripts/GameBallers.cs'
+'Assets/Standard Assets/Globals/Scripts/GameData.cs'
+'Assets/Standard Assets/Globals/Scripts/GameDataParent.cs'
+'Assets/Standard Assets/Globals/Scripts/GameDunks.cs'
+'Assets/Standard Assets/Globals/Scripts/GameItems.cs'
+'Assets/Standard Assets/Globals/Scripts/GameLogo.cs'
+'Assets/Standard Assets/Globals/Scripts/GameSounds.cs'
+'Assets/Standard Assets/Globals/Scripts/GameUniforms.cs'
+'Assets/Standard Assets/Globals/Scripts/Item.cs'
+'Assets/Standard Assets/Globals/Scripts/LogoItem.cs'
+'Assets/Standard Assets/Globals/Scripts/UniformItem.cs'
+'Assets/Standard Assets/Globals/XML Parser/XMLNode.cs'
+'Assets/Standard Assets/Globals/XML Parser/XMLNodeList.cs'
+'Assets/Standard Assets/Globals/XML Parser/XMLParser.cs'
+'Assets/Standard Assets/MainMenu/MainMenuState.cs'
+'Assets/Standard Assets/MainMenu/ScreenScripts/BallerIcon.cs'
+'Assets/Standard Assets/MainMenu/ScreenScripts/BlingPopUp.cs'
+'Assets/Standard Assets/MainMenu/ScreenScripts/CourtScreen.cs'
+'Assets/Standard Assets/MainMenu/ScreenScripts/GeneralTeamScreen.cs'
+'Assets/Standard Assets/MainMenu/ScreenScripts/ItemScreen.cs'
+'Assets/Standard Assets/MainMenu/ScreenScripts/MannequinManager.cs'
+'Assets/Standard Assets/MainMenu/ScreenScripts/MenuScreen.cs'
+'Assets/Standard Assets/MainMenu/ScreenScripts/OptionGameScreen.cs'
+'Assets/Standard Assets/MainMenu/ScreenScripts/OptionSoundScreen.cs'
+'Assets/Standard Assets/MainMenu/ScreenScripts/PlayerPicker.cs'
+'Assets/Standard Assets/MainMenu/ScreenScripts/PurchasePopUp.cs'
+'Assets/Standard Assets/MainMenu/ScreenScripts/StartScreen.cs'
+'Assets/Standard Assets/MainMenu/ScreenScripts/TeamCheck.cs'
+'Assets/Standard Assets/MainMenu/ScreenScripts/TeamLogoSelect.cs'
+'Assets/Standard Assets/MainMenu/ScreenScripts/TeamSelectScreen.cs'
+'Assets/Standard Assets/MainMenu/ScreenScripts/UniformScreen.cs'
+'Assets/Standard Assets/Menu_UI_Old/General/Scripts/LoadScreen.cs'
+'Assets/Standard Assets/Menu_UI_Old/General/Scripts/ScreenHelpers.cs'
+'Assets/Standard Assets/Menu_UI_Old/PlayerBars/Scripts/PlayerBars.cs'
+'Assets/Standard Assets/Menu_UI_Old/PlayerTile/Scripts/PlayerTile.cs'
+'Assets/Standard Assets/StatGetters/Script/PlayerStat.cs'
+'Assets/Standard Assets/StatGetters/Script/TeamStat.cs'
+'Assets/Standard Assets/StateMachineBase/ISMObject.cs'
+'Assets/Standard Assets/StateMachineBase/State.cs'
+'Assets/Standard Assets/StateMachineBase/StateMachine.cs'
+'Assets/Standard Assets/States/GameStateMachine.cs'
+'Assets/Standard Assets/Team/Scripts/Team.cs'
+'Assets/Standard Assets/Team/Scripts/TeamStateMachine.cs'
+'Assets/Standard Assets/Team/Scripts/Team_Manager.cs'
+'Assets/Standard Assets/Utilities/DataLoader.cs'
+'Assets/Standard Assets/Utilities/Disappear.cs'
+'Assets/Standard Assets/XmlImporter/D_Trials.cs'
+'Assets/Standard Assets/XmlImporter/Scripts/DefaultPlayer.cs'
+'Assets/Standard Assets/XmlImporter/Scripts/Formula.cs'
+'Assets/Standard Assets/XmlImporter/Scripts/PowerUpLoader.cs'
+'Assets/Standard Assets/XmlImporter/Scripts/Powerup.cs'
+'Assets/Standard Assets/XmlImporter/Scripts/SelectTeam.cs'
+'Assets/Standard Assets/XmlImporter/Scripts/SetText.cs'
+'Assets/Standard Assets/XmlImporter/Scripts/Team.cs'
+'Assets/Standard Assets/XmlImporter/Scripts/TeamLoader.cs'
+'Assets/Standard Assets/XmlImporter/Scripts/XMLDataParser.cs'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/System.Xml.Linq.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/UnityScript.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/UnityScript.Lang.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/Boo.Lang.dll'
+-sdk:2.0

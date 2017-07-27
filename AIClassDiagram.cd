@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WSBB.BallerAI">
+    <Position X="6" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAACAAUCCIBUBAAgBAAAAAAABhAAgSAABAgEAAAEA=</HashCode>
+      <FileName>Assets\Standard Assets\Baller AI\BallerAI.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="decisionAI" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WSBB.BBaller">
+    <Position X="3.25" Y="3.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BYwHkeonDqRBF9wWRAVgAHQkDUDlmKxiQx0USGhwgFo=</HashCode>
+      <FileName>Assets\Standard Assets\Baller\Scripts\BBaller.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="MyTeam" />
+      <Field Name="ballerAI" />
+      <Property Name="TeamManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WSBB.Team_Manager">
+    <Position X="8.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAABAAAAAQAgAAAAIAAAAAAAAAAAEAAAAAAEA=</HashCode>
+      <FileName>Assets\Standard Assets\Team\Scripts\Team_Manager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="teamAI" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WSBB.WSBBAI" Collapsed="true">
+    <Position X="8.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAACQICAAAEDUAABRBBAkBDFCAQAEwAACAYEAFAAEA=</HashCode>
+      <FileName>Assets\Standard Assets\Baller AI\WSBBAI.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="myTeam" />
+      <Field Name="myBaller" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WSBB.Team" Collapsed="true">
+    <Position X="11" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DARAYMABCDDQZRgRADFYAQJAAIAiAgxK5AACgFiAAsU=</HashCode>
+      <FileName>Assets\Standard Assets\Team\Scripts\Team.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="decisionAI" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Enum Name="WSBB.MoveType" Collapsed="true">
+    <Position X="11" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAACACAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Baller\Scripts\BBaller.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WSBB.GuardDirection" Collapsed="true">
+    <Position X="11" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAgAAAAAAAAEAAAAAAIAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Baller\Scripts\BBaller.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WSBB.MojoUpdates" Collapsed="true">
+    <Position X="12.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAQQAAAQAIAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\Standard Assets\Baller\Scripts\BBaller.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

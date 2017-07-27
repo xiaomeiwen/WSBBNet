@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<default_players xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<default_player>
+		<UID>1</UID>
+		<First>Derek</First>
+		<Nickname>The Snake</Nickname>
+		<Last>Jeffries</Last>
+		<speed>80</speed>
+		<agility>10</agility>
+		<power>10</power>
+	</default_player>
+	<default_player>
+		<UID>2</UID>
+		<First>Alex</First>
+		<Nickname>Sugarcube</Nickname>
+		<Last>Johnson</Last>
+		<speed>60</speed>
+		<agility>30</agility>
+		<power>10</power>
+	</default_player>
+	<default_player>
+		<UID>3</UID>
+		<First>Dwayne</First>
+		<Nickname>Big Easy</Nickname>
+		<Last>Williams</Last>
+		<speed>60</speed>
+		<agility>10</agility>
+		<power>30</power>
+	</default_player>
+	<default_player>
+		<UID>4</UID>
+		<First>Luis</First>
+		<Nickname>The Smoke</Nickname>
+		<Last>Brown</Last>
+		<speed>10</speed>
+		<agility>80</agility>
+		<power>10</power>
+	</default_player>
+	<default_player>
+		<UID>5</UID>
+		<First>Nick</First>
+		<Nickname>Reekie</Nickname>
+		<Last>Jones</Last>
+		<speed>30</speed>
+		<agility>60</agility>
+		<power>10</power>
+	</default_player>
+	<default_player>
+		<UID>6</UID>
+		<First>Joe</First>
+		<Nickname>Magic man</Nickname>
+		<Last>Miller</Last>
+		<speed>10</speed>
+		<agility>60</agility>
+		<power>30</power>
+	</default_player>
+	<default_player>
+		<UID>7</UID>
+		<First>Steve</First>
+		<Nickname>Bluffin'</Nickname>
+		<Last>Davis</Last>
+		<speed>10</speed>
+		<agility>10</agility>
+		<power>80</power>
+	</default_player>
+	<default_player>
+		<UID>8</UID>
+		<First>Mo</First>
+		<Nickname>Big Toe</Nickname>
+		<Last>Garcia</Last>
+		<speed>30</speed>
+		<agility>10</agility>
+		<power>60</power>
+	</default_player>
+	<default_player>
+		<UID>9</UID>
+		<First>Lee</First>
+		<Nickname>Iron Wall</Nickname>
+		<Last>Rodriguez</Last>
+		<speed>10</speed>
+		<agility>30</agility>
+		<power>60</power>
+	</default_player>
+	<default_player>
+		<UID>10</UID>
+		<First>Pete</First>
+		<Nickname>Big D</Nickname>
+		<Last>Wilson</Last>
+		<speed>40</speed>
+		<agility>30</agility>
+		<power>30</power>
+	</default_player>
+	<default_player>
+		<UID>11</UID>
+		<First>Oscar</First>
+		<Nickname>El Grosso</Nickname>
+		<Last>Martinez</Last>
+		<speed>30</speed>
+		<agility>40</agility>
+		<power>30</power>
+	</default_player>
+	<default_player>
+		<UID>12</UID>
+		<First>Zeke</First>
+		<Nickname>Goldfinger</Nickname>
+		<Last>Anderson</Last>
+		<speed>30</speed>
+		<agility>30</agility>
+		<power>40</power>
+	</default_player>
+</default_players>

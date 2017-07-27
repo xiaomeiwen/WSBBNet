@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<powerups xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<powerup>
+		<name> Lightning</name>
+		<description>Increases Speed by 20 plus 0.5 per level.</description>
+		<attribute>Speed</attribute>
+		<buffBase>20</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>30</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Lightning</name>
+		<description>Increases Speed by 25 plus 0.5 per level.</description>
+		<attribute>Speed</attribute>
+		<buffBase>25</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>65</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Lightning</name>
+		<description>Increases Speed by 30 plus 1.5 per level.</description>
+		<attribute>Speed</attribute>
+		<buffBase>30</buffBase>
+		<buffIncrement>1.5</buffIncrement>
+		<cost>120</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Slickness</name>
+		<description>Increases Agility by 20 plus 0.5 per level.</description>
+		<attribute>Agility</attribute>
+		<buffBase>20</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>30</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Slickness</name>
+		<description>Increases Agility by 25 plus 0.5 per level.</description>
+		<attribute>Agility</attribute>
+		<buffBase>25</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>65</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Slickness</name>
+		<description>Increases Agility by 30 plus 1.5 per level.</description>
+		<attribute>Agility</attribute>
+		<buffBase>30</buffBase>
+		<buffIncrement>1.5</buffIncrement>
+		<cost>120</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Energizer</name>
+		<description>Increases Power by 20 plus 0.5 per level.</description>
+		<attribute>Power</attribute>
+		<buffBase>20</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>30</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Energizer</name>
+		<description>Increases Power by 25 plus 0.5 per level.</description>
+		<attribute>Power</attribute>
+		<buffBase>25</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>65</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Energizer</name>
+		<description>Increases Power by 30 plus 1.5 per level.</description>
+		<attribute>Power</attribute>
+		<buffBase>30</buffBase>
+		<buffIncrement>1.5</buffIncrement>
+		<cost>120</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>0</name>
+		<description>0</description>
+		<attribute/>
+		<buffBase>0</buffBase>
+		<buffIncrement>0</buffIncrement>
+		<cost>0</cost>
+		<cardLevel>0</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>0</name>
+		<description>0</description>
+		<attribute/>
+		<buffBase>0</buffBase>
+		<buffIncrement>0</buffIncrement>
+		<cost>0</cost>
+		<cardLevel>0</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>0</name>
+		<description>0</description>
+		<attribute/>
+		<buffBase>0</buffBase>
+		<buffIncrement>0</buffIncrement>
+		<cost>0</cost>
+		<cardLevel>0</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>0</name>
+		<description>0</description>
+		<attribute/>
+		<buffBase>0</buffBase>
+		<buffIncrement>0</buffIncrement>
+		<cost>0</cost>
+		<cardLevel>0</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>0</name>
+		<description>0</description>
+		<attribute/>
+		<buffBase>0</buffBase>
+		<buffIncrement>0</buffIncrement>
+		<cost>0</cost>
+		<cardLevel>0</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>0</name>
+		<description>0</description>
+		<attribute/>
+		<buffBase>0</buffBase>
+		<buffIncrement>0</buffIncrement>
+		<cost>0</cost>
+		<cardLevel>0</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Stonewall</name>
+		<description>Increases Block Base  by 5 plus 0.5 per level for the duration of the Quarter.</description>
+		<attribute>Block </attribute>
+		<buffBase>5</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>10</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Stonewall</name>
+		<description>Increases Block Base  by 10 plus 0.75 per level for the duration of the Quarter.</description>
+		<attribute>Block </attribute>
+		<buffBase>10</buffBase>
+		<buffIncrement>0.75</buffIncrement>
+		<cost>47.5</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>Stonewall</name>
+		<description>Increases Block Base  by 15 plus 1 per level for the duration of the Quarter.</description>
+		<attribute>Block</attribute>
+		<buffBase>15</buffBase>
+		<buffIncrement>1</buffIncrement>
+		<cost>85</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Sureshot</name>
+		<description>Increases Shoot Base  within 2 point range by 5 plus 0.5 per level for the duration of the Quarter.</description>
+		<attribute>Shoot</attribute>
+		<buffBase>5</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>10</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Sureshot</name>
+		<description>Increases Shoot Base  within 2 point range by 10 plus 0.75 per level for the duration of the Quarter.</description>
+		<attribute>Shoot </attribute>
+		<buffBase>10</buffBase>
+		<buffIncrement>0.75</buffIncrement>
+		<cost>47.5</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Sureshot</name>
+		<description>Increases Shoot Base  within 2 point range by 15 plus 1 per level for the duration of the Quarter.</description>
+		<attribute>Shoot</attribute>
+		<buffBase>15</buffBase>
+		<buffIncrement>1</buffIncrement>
+		<cost>85</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Bandit</name>
+		<description>Increases Steal Base  by 5 plus 0.5 per level for the duration of the Quarter.</description>
+		<attribute>Steal</attribute>
+		<buffBase>5</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>10</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Bandit</name>
+		<description>Increases Steal Base  by 10 plus 0.75 per level for the duration of the Quarter.</description>
+		<attribute>Steal </attribute>
+		<buffBase>10</buffBase>
+		<buffIncrement>0.75</buffIncrement>
+		<cost>47.5</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Bandit</name>
+		<description>Increases Steal Base  by 15 plus 1 per level for the duration of the Quarter.</description>
+		<attribute>Steal </attribute>
+		<buffBase>15</buffBase>
+		<buffIncrement>1</buffIncrement>
+		<cost>85</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Cannon</name>
+		<description>Increases Pass Base  by 5 plus 0.5 per level for the duration of the Quarter.</description>
+		<attribute>Pass </attribute>
+		<buffBase>5</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>10</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Cannon</name>
+		<description>Increases Pass Base  by 10 plus 0.75 per level for the duration of the Quarter.</description>
+		<attribute>Pass </attribute>
+		<buffBase>10</buffBase>
+		<buffIncrement>0.75</buffIncrement>
+		<cost>47.5</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Cannon</name>
+		<description>Increases Pass Base  by 15 plus 1 per level for the duration of the Quarter.</description>
+		<attribute>Pass </attribute>
+		<buffBase>15</buffBase>
+		<buffIncrement>1</buffIncrement>
+		<cost>85</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Bumrush</name>
+		<description>Increases Drive Base  by 5 plus 0.5 per level for the duration of the Quarter.</description>
+		<attribute>Drive </attribute>
+		<buffBase>5</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>10</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Bumrush</name>
+		<description>Increases Drive Base  by 10 plus 0.75 per level for the duration of the Quarter.</description>
+		<attribute>Drive </attribute>
+		<buffBase>10</buffBase>
+		<buffIncrement>0.75</buffIncrement>
+		<cost>47.5</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Bumrush</name>
+		<description>Increases Drive Base  by 15 plus 1 per level for the duration of the Quarter.</description>
+		<attribute>Drive</attribute>
+		<buffBase>15</buffBase>
+		<buffIncrement>1</buffIncrement>
+		<cost>85</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Magician</name>
+		<description>Increases Ball Handling Base  by 5 plus 0.5 per level for the duration of the Quarter.</description>
+		<attribute>Handling </attribute>
+		<buffBase>5</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>10</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Magician</name>
+		<description>Increases Ball Handling Base  by 10 plus 0.75 per level for the duration of the Quarter.</description>
+		<attribute>Handling </attribute>
+		<buffBase>10</buffBase>
+		<buffIncrement>0.75</buffIncrement>
+		<cost>47.5</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Magician</name>
+		<description>Increases Ball Handling Base  by 15 plus 1 per level for the duration of the Quarter.</description>
+		<attribute>Handling</attribute>
+		<buffBase>15</buffBase>
+		<buffIncrement>1</buffIncrement>
+		<cost>85</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Stronghold</name>
+		<description>Increases Guard Base  by 5 plus 0.5 per level for the duration of the Quarter.</description>
+		<attribute>Guard </attribute>
+		<buffBase>5</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>10</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Stronghold</name>
+		<description>Increases Guard Base  by 10 plus 0.75 per level for the duration of the Quarter.</description>
+		<attribute>Guard </attribute>
+		<buffBase>10</buffBase>
+		<buffIncrement>0.75</buffIncrement>
+		<cost>47.5</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Stronghold</name>
+		<description>Increases Guard Base  by 15 plus 1 per level for the duration of the Quarter.</description>
+		<attribute>Guard</attribute>
+		<buffBase>15</buffBase>
+		<buffIncrement>1</buffIncrement>
+		<cost>85</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Hangtime</name>
+		<description>Improves Drive Base  by 5 and increases distance from hoop that dunks start by 2.5 for the duration of the Quarter.</description>
+		<attribute>Drive </attribute>
+		<buffBase>5</buffBase>
+		<buffIncrement>2.5</buffIncrement>
+		<cost>30</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Hangtime</name>
+		<description>Improves Drive Base  by 10 and increases distance from hoop that dunks start by 5 for the duration of the Quarter.</description>
+		<attribute>Drive </attribute>
+		<buffBase>10</buffBase>
+		<buffIncrement>5</buffIncrement>
+		<cost>75</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Hangtime</name>
+		<description>Improves Drive Base  by 15 and increases distance from hoop that dunks start by 7.5 for the duration of the Quarter.</description>
+		<attribute>Drive</attribute>
+		<buffBase>15</buffBase>
+		<buffIncrement>7.5</buffIncrement>
+		<cost>120</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Flash</name>
+		<description>Decreases Opponent's Shoot Base  by 5 plus 0.5 per level for the duration of the Quarter.</description>
+		<attribute>Shoot </attribute>
+		<buffBase>5</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>5</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Flash</name>
+		<description>Decreases Opponent's Shoot Base  by 10 plus 0.5 per level for the duration of the Quarter.</description>
+		<attribute>Shoot </attribute>
+		<buffBase>10</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>40</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Flash</name>
+		<description>Decreases Opponent's Shoot Base  by 15 plus 1.5 per level for the duration of the Quarter.</description>
+		<attribute>Shoot</attribute>
+		<buffBase>15</buffBase>
+		<buffIncrement>1.5</buffIncrement>
+		<cost>75</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> On Fire</name>
+		<description>Improves Shoot Base  by 5 and increases Shoot Base  by 2.5 for the duration of the Quarter.</description>
+		<attribute>Shoot </attribute>
+		<buffBase>5</buffBase>
+		<buffIncrement>2.5</buffIncrement>
+		<cost>5</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> On Fire</name>
+		<description>Improves Shoot Base  by 10 and increases Shoot Base  by 5 for the duration of the Quarter.</description>
+		<attribute>Shoot </attribute>
+		<buffBase>10</buffBase>
+		<buffIncrement>5</buffIncrement>
+		<cost>40</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> On Fire</name>
+		<description>Improves Shoot Base  by 15 and increases Shoot Base  by 7.5 for the duration of the Quarter.</description>
+		<attribute>Shoot</attribute>
+		<buffBase>15</buffBase>
+		<buffIncrement>7.5</buffIncrement>
+		<cost>75</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Sharpshooter</name>
+		<description>Increases Shoot Base  from 3 point range by 5 plus 0.5 per level for the duration of the Quarter.</description>
+		<attribute>Shoot </attribute>
+		<buffBase>5</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>5</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Sharpshooter</name>
+		<description>Increases Shoot Base  from 3 point range by 10 plus 0.5 per level for the duration of the Quarter.</description>
+		<attribute>Shoot </attribute>
+		<buffBase>10</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>40</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Sharpshooter</name>
+		<description>Increases Shoot Base  from 3 point range by 15 plus 1.5 per level for the duration of the Quarter.</description>
+		<attribute>Shoot</attribute>
+		<buffBase>15</buffBase>
+		<buffIncrement>1.5</buffIncrement>
+		<cost>75</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Down</name>
+		<description>Increases Mojo Award by 2 x for the duration of the Quarter.</description>
+		<attribute>Mojo</attribute>
+		<buffBase>2</buffBase>
+		<buffIncrement>0.2</buffIncrement>
+		<cost>30</cost>
+		<cardLevel>Double</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Down</name>
+		<description>Increases Mojo Award by 3 x for the duration of the Quarter.</description>
+		<attribute>Mojo</attribute>
+		<buffBase>3</buffBase>
+		<buffIncrement>0.4</buffIncrement>
+		<cost>75</cost>
+		<cardLevel>Triple</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Down</name>
+		<description>Increases Mojo Award by 4 x for the duration of the Quarter.</description>
+		<attribute>Mojo</attribute>
+		<buffBase>4</buffBase>
+		<buffIncrement>0.8</buffIncrement>
+		<cost>120</cost>
+		<cardLevel>Quadruple</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Iron Man</name>
+		<description>Decreases  Fatigue  by 5 plus 0.5 per level for the duration of the Quarter.</description>
+		<attribute> Fatigue </attribute>
+		<buffBase>5</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>5</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Iron Man</name>
+		<description>Decreases  Fatigue  by 10 plus 0.5 per level for the duration of the Quarter.</description>
+		<attribute> Fatigue </attribute>
+		<buffBase>10</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>40</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> Iron Man</name>
+		<description>Decreases  Fatigue  by 15 plus 1.5 per level for the duration of the Quarter.</description>
+		<attribute> Fatigue </attribute>
+		<buffBase>15</buffBase>
+		<buffIncrement>1.5</buffIncrement>
+		<cost>75</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> From the Line</name>
+		<description>Increases Shoot Base  from the foul line by 5 plus 0.5 per level for the duration of the Quarter.</description>
+		<attribute>Shoot </attribute>
+		<buffBase>5</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>5</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> From the Line</name>
+		<description>Increases Shoot Base  from the foul line by 10 plus 0.5 per level for the duration of the Quarter.</description>
+		<attribute>Shoot </attribute>
+		<buffBase>10</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>40</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> From the Line</name>
+		<description>Increases Shoot Base  from the foul line by 15 plus 1.5 per level for the duration of the Quarter.</description>
+		<attribute>Shoot </attribute>
+		<buffBase>15</buffBase>
+		<buffIncrement>1.5</buffIncrement>
+		<cost>75</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> No Blood</name>
+		<description>Decreases  odds of Drawing a Foul by 5 plus 0.5 per level for the duration of the Quarter.</description>
+		<attribute> FoulOdds</attribute>
+		<buffBase>5</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>5</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> No Blood</name>
+		<description>Decreases  odds of Drawing a Foul by 10 plus 0.5 per level for the duration of the Quarter.</description>
+		<attribute> FoulOdds</attribute>
+		<buffBase>10</buffBase>
+		<buffIncrement>0.5</buffIncrement>
+		<cost>40</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name> No Blood</name>
+		<description>Decreases  odds of Drawing a Foul by 15 plus 1.5 per level for the duration of the Quarter.</description>
+		<attribute> FoulOdds</attribute>
+		<buffBase>15</buffBase>
+		<buffIncrement>1.5</buffIncrement>
+		<cost>75</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>Q</timeScope>
+		<cooldown>0</cooldown>
+		<playerScope>I</playerScope>
+	</powerup>
+	<powerup>
+		<name>0 DUNKCARDS</name>
+	</powerup>
+	<powerup>
+		<name>Backslam</name>
+		<description>Increases Team Speed  for 30 seconds.  seconds. 60 second cooldown.</description>
+		<attribute>speed</attribute>
+		<buffBase>20</buffBase>
+		<buffIncrement>0</buffIncrement>
+		<cost>100</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>30 </timeScope>
+		<cooldown>60</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Backslam</name>
+		<description>Increases Team Speed and Agility  for 30 seconds.  seconds. 60 second cooldown.</description>
+		<attribute>speed,Agility</attribute>
+		<buffBase>15,10</buffBase>
+		<buffIncrement>0</buffIncrement>
+		<cost>275</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>30 </timeScope>
+		<cooldown>60</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Backslam</name>
+		<description>Increases Team Speed and Power  for 30 seconds.  seconds. 60 second cooldown.</description>
+		<attribute>speed,power</attribute>
+		<buffBase>15,10</buffBase>
+		<buffIncrement>0</buffIncrement>
+		<cost>425</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>30 </timeScope>
+		<cooldown>60</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Mashed</name>
+		<description>Increases Team Speed  for 40 seconds.  seconds. 90 second cooldown.</description>
+		<attribute>speed</attribute>
+		<buffBase>25</buffBase>
+		<buffIncrement>0</buffIncrement>
+		<cost>125</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>40 </timeScope>
+		<cooldown>90</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Mashed</name>
+		<description>Increases Team Speed and Agility  for 40 seconds.  seconds. 90 second cooldown.</description>
+		<attribute>speed,Agility</attribute>
+		<buffBase>20,10</buffBase>
+		<buffIncrement>0</buffIncrement>
+		<cost>300</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>40 </timeScope>
+		<cooldown>90</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Mashed</name>
+		<description>Increases Team Speed and Power  for 40 seconds.  seconds. 90 second cooldown.</description>
+		<attribute>speed,power</attribute>
+		<buffBase>20,10</buffBase>
+		<buffIncrement>0</buffIncrement>
+		<cost>450</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>40 </timeScope>
+		<cooldown>90</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Rocket</name>
+		<description>Increases Team Speed  for 60 seconds.  seconds. 120 second cooldown.</description>
+		<attribute>speed</attribute>
+		<buffBase>30</buffBase>
+		<buffIncrement>0</buffIncrement>
+		<cost>150</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>60 </timeScope>
+		<cooldown>120</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Rocket</name>
+		<description>Increases Team Speed and Agility  for 60 seconds.  seconds. 120 second cooldown.</description>
+		<attribute>speed,Agility</attribute>
+		<buffBase>25,15</buffBase>
+		<buffIncrement>0</buffIncrement>
+		<cost>350</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>60 </timeScope>
+		<cooldown>120</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Rocket</name>
+		<description>Increases Team Speed and Power  for 60 seconds.  seconds. 120 second cooldown.</description>
+		<attribute>speed,power</attribute>
+		<buffBase>25,15</buffBase>
+		<buffIncrement>0</buffIncrement>
+		<cost>500</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>60 </timeScope>
+		<cooldown>120</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Legitness</name>
+		<description>Increases Team Agility  for 30 seconds.  seconds. 60 second cooldown.</description>
+		<attribute>Agility</attribute>
+		<buffBase>20</buffBase>
+		<buffIncrement>0</buffIncrement>
+		<cost>100</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>30 </timeScope>
+		<cooldown>60</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Legitness</name>
+		<description>Increases Team Agility and Speed  for 30 seconds.  seconds. 60 second cooldown.</description>
+		<attribute>speed,Agility</attribute>
+		<buffBase>10,15</buffBase>
+		<buffIncrement>0</buffIncrement>
+		<cost>275</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>30 </timeScope>
+		<cooldown>60</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Legitness</name>
+		<description>Increases Team Agility and Power  for 30 seconds.  seconds. 60 second cooldown.</description>
+		<attribute>Agility,power</attribute>
+		<buffBase>15,10</buffBase>
+		<buffIncrement>0</buffIncrement>
+		<cost>425</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>30 </timeScope>
+		<cooldown>60</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Topoff</name>
+		<description>Increases Team Agility  for 40 seconds.  seconds. 90 second cooldown.</description>
+		<attribute>Agility</attribute>
+		<buffBase>25</buffBase>
+		<buffIncrement>0</buffIncrement>
+		<cost>125</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>40 </timeScope>
+		<cooldown>90</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Topoff</name>
+		<description>Increases Team Agility and Speed  for 40 seconds.  seconds. 90 second cooldown.</description>
+		<attribute>speed,Agility</attribute>
+		<buffBase>10,20</buffBase>
+		<buffIncrement>1</buffIncrement>
+		<cost>300</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>40 </timeScope>
+		<cooldown>90</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Topoff</name>
+		<description>Increases Team Agility and Power  for 40 seconds.  seconds. 90 second cooldown.</description>
+		<attribute>Agility,power</attribute>
+		<buffBase>20,10</buffBase>
+		<buffIncrement>2</buffIncrement>
+		<cost>450</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>40 </timeScope>
+		<cooldown>90</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Tornado</name>
+		<description>Increases Team Agility  for 60 seconds.  seconds. 120 second cooldown.</description>
+		<attribute>Agility</attribute>
+		<buffBase>30</buffBase>
+		<buffIncrement>3</buffIncrement>
+		<cost>150</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>60 </timeScope>
+		<cooldown>120</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Tornado</name>
+		<description>Increases Team Agility and Speed  for 60 seconds.  seconds. 120 second cooldown.</description>
+		<attribute>speed,Agility</attribute>
+		<buffBase>15,25</buffBase>
+		<buffIncrement>4</buffIncrement>
+		<cost>350</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>60 </timeScope>
+		<cooldown>120</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Tornado</name>
+		<description>Increases Team Agility and Power  for 60 seconds.  seconds. 120 second cooldown.</description>
+		<attribute>Agility,power</attribute>
+		<buffBase>25,15</buffBase>
+		<buffIncrement>5</buffIncrement>
+		<cost>500</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>60 </timeScope>
+		<cooldown>120</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Skydrop</name>
+		<description>Increases Team Power  for 30 seconds.  seconds. 60 second cooldown.</description>
+		<attribute>power</attribute>
+		<buffBase>20</buffBase>
+		<buffIncrement>6</buffIncrement>
+		<cost>100</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>30 </timeScope>
+		<cooldown>60</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Skydrop</name>
+		<description>Increases Team Power and Speed  for 30 seconds.  seconds. 60 second cooldown.</description>
+		<attribute>speed,power</attribute>
+		<buffBase>10,15</buffBase>
+		<buffIncrement>7</buffIncrement>
+		<cost>275</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>30 </timeScope>
+		<cooldown>60</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Skydrop</name>
+		<description>Increases Team Power and Agility  for 30 seconds.  seconds. 60 second cooldown.</description>
+		<attribute>Agility,power</attribute>
+		<buffBase>10,15</buffBase>
+		<buffIncrement>8</buffIncrement>
+		<cost>425</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>30 </timeScope>
+		<cooldown>60</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Tricky</name>
+		<description>Increases Team Power  for 40 seconds.  seconds. 90 second cooldown.</description>
+		<attribute>power</attribute>
+		<buffBase>25</buffBase>
+		<buffIncrement>9</buffIncrement>
+		<cost>125</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>40 </timeScope>
+		<cooldown>90</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Tricky</name>
+		<description>Increases Team Power and Speed  for 40 seconds.  seconds. 90 second cooldown.</description>
+		<attribute>speed,power</attribute>
+		<buffBase>10,20</buffBase>
+		<buffIncrement>10</buffIncrement>
+		<cost>300</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>40 </timeScope>
+		<cooldown>90</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Tricky</name>
+		<description>Increases Team Power and Agility  for 40 seconds.  seconds. 90 second cooldown.</description>
+		<attribute>Agility,power</attribute>
+		<buffBase>10,20</buffBase>
+		<buffIncrement>11</buffIncrement>
+		<cost>450</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>40 </timeScope>
+		<cooldown>90</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Twisted</name>
+		<description>Increases Team Power  for 60 seconds.  seconds. 120 second cooldown.</description>
+		<attribute>power</attribute>
+		<buffBase>30</buffBase>
+		<buffIncrement>12</buffIncrement>
+		<cost>150</cost>
+		<cardLevel>Bronze</cardLevel>
+		<playerMinLevel>0</playerMinLevel>
+		<timeScope>60 </timeScope>
+		<cooldown>120</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Twisted</name>
+		<description>Increases Team Power and Speed  for 60 seconds.  seconds. 120 second cooldown.</description>
+		<attribute>speed,power</attribute>
+		<buffBase>15,25</buffBase>
+		<buffIncrement>13</buffIncrement>
+		<cost>350</cost>
+		<cardLevel>Silver</cardLevel>
+		<playerMinLevel>10</playerMinLevel>
+		<timeScope>60 </timeScope>
+		<cooldown>120</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+	<powerup>
+		<name>Twisted</name>
+		<description>Increases Team Power and Agility  for 60 seconds.  seconds. 120 second cooldown.</description>
+		<attribute>Agility,power</attribute>
+		<buffBase>15,25</buffBase>
+		<buffIncrement>14</buffIncrement>
+		<cost>500</cost>
+		<cardLevel>Gold</cardLevel>
+		<playerMinLevel>20</playerMinLevel>
+		<timeScope>60 </timeScope>
+		<cooldown>120</cooldown>
+		<playerScope>T</playerScope>
+	</powerup>
+</powerups>
