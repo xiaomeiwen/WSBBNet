@@ -99,6 +99,12 @@
     <Reference Include="UnityEngine.VR">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
     </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>Assets/Plugins/Photon3Unity3D.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
     </Reference>
@@ -164,6 +170,7 @@
     <Compile Include="Assets\Plugins\Sprite Scripts\Support\SpriteMesh.cs" />
     <Compile Include="Assets\Plugins\Sprite Scripts\Support\SpriteMesh_Managed.cs" />
     <Compile Include="Assets\Plugins\Sprite Scripts\Support\SpriteRoot.cs" />
+    <Compile Include="Assets\Plugins\WebSocket\WebSocket.cs" />
     <Compile Include="Assets\Standard Assets\Ball\Ball.cs" />
     <Compile Include="Assets\Standard Assets\Ball\BallStateMachine.cs" />
     <Compile Include="Assets\Standard Assets\Baller AI\BBallerStateMachine.cs" />
@@ -246,13 +253,18 @@
     <Compile Include="Assets\Standard Assets\XmlImporter\Scripts\XMLDataParser.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Photon Unity Networking\changelog.txt" />
+    <None Include="Assets\Photon Unity Networking\link.xml" />
+    <None Include="Assets\Photon Unity Networking\readme.txt" />
     <None Include="Assets\Plugins\AnBSoft Common\Standard Font\Arial, Fancy.txt" />
     <None Include="Assets\Plugins\AnBSoft Common\Standard Shaders\Sprite Cutout.shader" />
     <None Include="Assets\Plugins\AnBSoft Common\Standard Shaders\Sprite Simple Texture .shader" />
     <None Include="Assets\Plugins\AnBSoft Common\Standard Shaders\Sprite Vertex Colored, Fast.shader" />
     <None Include="Assets\Plugins\AnBSoft Common\Standard Shaders\Sprite Vertex Colored.shader" />
+    <None Include="Assets\Plugins\Photon3Unity3D.xml" />
     <None Include="Assets\Plugins\Sage\Editor\SageEditor.XML" />
     <None Include="Assets\Plugins\Sage\Scripts\Sage.XML" />
+    <None Include="Assets\Plugins\release_history.txt" />
     <None Include="Assets\Standard Assets\XmlImporter\xml\default_players.xml" />
     <None Include="Assets\Standard Assets\XmlImporter\xml\powerups.xml" />
     <None Include="Assets\Standard Assets\XmlImporter\xml\teams.xml" />
